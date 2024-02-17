@@ -2,7 +2,7 @@ let mensajeProcesado = []; // variable que recibe el mensaje resultado final de 
 let mensajeProcesar = ""; // variable que recibe el mensaje que se quiere encriptar o desencriptar.
 let claveEncriptacion = { "e" : "enter", "i" : "imes", "a" : "ai", "o" : "ober", "u" : "ufat"};
 let claveAvanceContador = { "e" : 4, "i" : 3, "a" : 1, "o" : 3, "u" : 3}; //se usa en la función para desencriptar.
-let abecedario = 'abcdefghijklmnñopqrstuvwxyz,.!¡¿?-_"';
+let abecedario = 'abcdefghijklmnñopqrstuvwxyz:;,.!¡¿?-_"';
 
 // función que toma el mensaje a encriptar y lo asigna a la variable.
 function asignarMensaje(accion){
